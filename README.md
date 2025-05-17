@@ -50,6 +50,8 @@ The summarization agent is driven by a structured prompt like:
 
 ---
 
+
+
 ## Project Structure
 
 ```bash
@@ -76,17 +78,17 @@ The summarization agent is driven by a structured prompt like:
 - **Gradio / Streamlit** (or similar) for frontend interface
 - **WeasyPrint / HTML2PDF** for report generation
 
----
+
 
 ## Installation
-```bash
+
 git clone https://github.com/your-repo/product-data-analyzer.git
 cd product-data-analyzer
 python -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
 
-```
+
 
 ## Configuration
 1. **API Keys**: Set up your API keys in the `.env` file.
